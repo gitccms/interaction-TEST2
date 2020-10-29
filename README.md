@@ -16,29 +16,29 @@
                 1、编写一个Windows 程序，实现自动出题并判分的功能。功能要求：
                 （1）能随机出题（例如，加、减、乘、除）通过复选框让用户选择要测试的范围，即加、减、乘、除中哪几个，然后将选择的运算符号存入signs[]，每次出题的时候随机产生两个数字和一个符号
 
-        ``` C#
-        private void new_problem(){        
-                    x = rnd.Next(low, high);            
-                    y = rnd.Next(low, high);            
-                    sign_index = rnd.Next(0, check_number);            
-                    formula.Text = string.Format("{0:D} {1:C} {2:d} =", x, signs[sign_index], y);            
-                    switch (signs[sign_index])            
-                    {            
-                        case '➕':                
-                            ans = x + y;                    
-                            break;
-                        case '➖':
-                            ans = x - y;
-                            break;
-                        case '✖':
-                            ans = x * y;
-                            break;
-                        case '➗':
-                            ans = x / y;
-                            break;
-                    }
-                        }
-          ```
+``` c#
+private void new_problem(){        
+            x = rnd.Next(low, high);            
+            y = rnd.Next(low, high);            
+            sign_index = rnd.Next(0, check_number);            
+            formula.Text = string.Format("{0:D} {1:C} {2:d} =", x, signs[sign_index], y);            
+            switch (signs[sign_index])            
+            {            
+                case '➕':                
+                    ans = x + y;                    
+                    break;
+                case '➖':
+                    ans = x - y;
+                    break;
+                case '✖':
+                    ans = x * y;
+                    break;
+                case '➗':
+                    ans = x / y;
+                    break;
+            }
+                }
+  ```
 
         （2）能进行答案的判断
 
