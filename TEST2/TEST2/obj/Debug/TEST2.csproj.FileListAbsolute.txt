@@ -1,0 +1,12 @@
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\bin\Debug\TEST2.exe.config
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\bin\Debug\TEST2.exe
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\bin\Debug\TEST2.pdb
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.csprojAssemblyReference.cache
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.Form1.resources
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.Properties.Resources.resources
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.csproj.GenerateResource.cache
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.csproj.CoreCompileInputs.cache
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.exe
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.pdb
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.Form2.resources
+D:\OneDrive - m.ldu.edu.cn\大学\Codes\人机交互\TEST2\TEST2\obj\Debug\TEST2.Form3.resources
