@@ -41,29 +41,30 @@ private void new_problem(){
   ```
 
         （2）能进行答案的判断
-
-                private void nextproblem_Click_1(object sender, EventArgs e){
-                    content_message.Text = "";
-                    if (anstextBox.Text == "")
-                    {
-                        content_message.Text = "答案不能为空!";
-                        return;
-                    }
-                    if (ans.ToString() == anstextBox.Text)
-                    {
-                        correct_num++;
-                    }
-                    ans_num++;
-                    content_message.Text = "";
-                    contentlabel1.Text = string.Format("已答数目：{0:D}", ans_num);
-                    anstextBox.Clear();
-                    anstextBox.Focus();
-                    new_problem();
-                }
+```c#
+        private void nextproblem_Click_1(object sender, EventArgs e){
+            content_message.Text = "";
+            if (anstextBox.Text == "")
+            {
+                content_message.Text = "答案不能为空!";
+                return;
+            }
+            if (ans.ToString() == anstextBox.Text)
+            {
+                correct_num++;
+            }
+            ans_num++;
+            content_message.Text = "";
+            contentlabel1.Text = string.Format("已答数目：{0:D}", ans_num);
+            anstextBox.Clear();
+            anstextBox.Focus();
+            new_problem();
+        }
+```        
                 
 
         （3）使用 Timer 控件，显示时间或设置练习时长
-
+```c#
                 private void timer1_Tick(object sender, EventArgs e){
                     restTime.Text = string.Format("剩余时间:{0:D}秒", rest_seconds);
                     timer1.Interval = 1000;
@@ -89,6 +90,7 @@ private void new_problem(){
                     }
                     rest_seconds--;
                 }
+```                
 
         （4）其他扩充功能（选做），如难题的判断，得分的计算等等。
         运行截图:
